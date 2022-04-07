@@ -32,7 +32,7 @@ pool: Default
 resources:
   repositories:
   # Azure DevOps repository
-  - repository: helfi-kuva-pipelines
+  - repository: aro-686-vitalijus-test-pipelines
     type: git
     # Azure DevOps project/repository
     name: aro-686-vitalijus-test/aro-686-vitalijus-test-pipelines
@@ -43,7 +43,6 @@ extends:
   # Django example: azure-pipelines-PROJECTNAME-api-master.yml
   # Drupal example: azure-pipelines-drupal-master.yml
   template: azure-pipelines-drupal-devtest.yml@aro-686-vitalijus-test-pipelines
-
   # Image tag name for Fuse projects
   #parameters:
     #imagetag: ${{ parameters.imagetag }}
